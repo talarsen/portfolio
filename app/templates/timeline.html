@@ -1,10 +1,10 @@
 {% extends "pageOverlay.html" %} {% block content %}
 <div class="p-10 container-fluid">
 	<form id="form">
-		<input name="name" type="text" />
-		<input name="email" type="email" />
-		<input name="content" type="text" />
-		<button type="submit">Submit</button>
+		<input class="form-control mt-5 mb-2" name="name" type="text" placeholder="First name"><br>
+		<input class="form-control mb-2" name="email" type="email" placeholder="Email: name@example.com" /><br>
+		<textarea class="form-control mb-3" name="content" placeholder="Type your message here."type="text"  id="exampleFormControlTextarea1" rows="3"></textarea>
+		<button class="btn btn-primary" type="submit">Submit</button>
 	</form>
 <div>
 		<h1 class="mt-5">All timeline Posts</h1>
